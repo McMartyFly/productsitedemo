@@ -46,15 +46,25 @@ h6 {
   font-weight: 700;
 }
 
-.navbar-custom .navbar-nav .nav-item .nav-link {
+.navbar-custom .navbar-brand span {
+  color: #33cc33;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link,
+.navbar-custom .navbar-nav .nav-item .contact {
+  color: #33cc33;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
 }
+.navbar-custom .navbar-nav .nav-item .contact {
+  display: block;
+  padding: 0.5rem;
+}
 
-.navbar-dark .navbar-nav .nav-link.static:hover {
-  color: #929190;
+.navbar-custom .navbar-nav .nav-item .nav-link:hover {
+  color: #85e085;
 }
 
 header.masthead {
@@ -63,7 +73,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
-  background: url('http://placekitten.com/1450/750') !important;
+  background: url('../img/vege-layout.png') !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
